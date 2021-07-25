@@ -6,7 +6,7 @@
   "scripts": {
     "report": "allure generate ./allure-results -c && allure open",
     "testALL": "wdio run ./wdio.conf.ts",
-    "test": "wdio run ./wdio.conf.ts --spec eq"
+    "test": "wdio run ./wdio.conf.ts --spec ratingSortTest.ts"
   },
   "keywords": [],
   "author": "",
